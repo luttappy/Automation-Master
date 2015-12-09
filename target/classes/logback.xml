@@ -1,0 +1,23 @@
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d [%t] %-5p %c - %m%n</Pattern>
+    </layout>
+  </appender>
+  
+  <appender name="RFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+  <file>${logDirectory}/${logFilename}.log</file>
+  <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+  	<fileNamePattern>${logDirectory}/${logFilename}.%d{yyyy-MM-dd}.log</fileNamePattern>
+   	<maxHistory>30</maxHistory>
+  </rollingPolicy>	
+    <encoder>
+      <Pattern>%d [%t] %-5p %c - %m%n</Pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="STDOUT"/>
+    <appender-ref ref="RFILE"/>
+  </root>
+</configuration>

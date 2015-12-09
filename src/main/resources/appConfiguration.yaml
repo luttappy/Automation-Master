@@ -1,0 +1,6 @@
+APP_PROD:
+    HOME_PAGE : http://prod.portal.eols.website/#/admin
+APP_DEV:
+    HOME_PAGE : http://dev.portal.eols.website/#/admin
+APP_QA:
+    HOME_PAGE : http://qa.portal.eols.website/#/admin

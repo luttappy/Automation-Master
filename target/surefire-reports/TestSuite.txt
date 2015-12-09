@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.383 sec <<< FAILURE!
+sampleTest(sherpath.edu.app.test.copy.TestClass)  Time elapsed: 18.625 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at sherpath.edu.app.page.PageClass.launchUrl(PageClass.java:8)
+	at sherpath.edu.app.test.copy.TestClass.sampleTest(TestClass.java:20)
+

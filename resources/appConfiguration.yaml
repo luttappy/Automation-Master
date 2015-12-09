@@ -1,0 +1,75 @@
+LATIMES_PROD:
+    HOME_PAGE : http://advertising.latimes.com/orders/create?[0].sectionid=814&[1].sectionid=1056
+LATIMES_STG:
+    HOME_PAGE : http://advertising-latimes.tribstage.com/orders/create?[0].sectionid=814&[1].sectionid=1056
+LATIMES_QA:
+    HOME_PAGE : http://advertising-latimes.tribqa.com/orders/create?[0].sectionid=814&[1].sectionid=1056
+CTC_PROD:
+    HOME_PAGE : http://advertising.chicagotribune.com/orders/create?[0].sectionid=342&[0].TargetTypeId=1&isvendor=true
+CTC_STG:
+    HOME_PAGE : http://advertising-chicagotribune.tribstage.com/orders/create?[0].sectionid=342&[0].TargetTypeId=1&isvendor=true
+CTC_QA:
+    HOME_PAGE : http://advertising-chicagotribune.tribqa.com/orders/create?[0].sectionid=342&[0].TargetTypeId=1&isvendor=true
+CTC_OBITS_PROD:
+    HOME_PAGE : http://advertising-chicagotribune.tribstage.com/orders/create?package=CTCOBIT1
+CTC_OBITS_STG:
+    HOME_PAGE : http://advertising-chicagotribune.tribstage.com/orders/create?package=CTCOBIT1
+CTC_OBITS_QA:
+    HOME_PAGE : http://advertising-chicagotribune.tribqa.com/orders/create?package=CTCOBIT1
+DPR_OBITS_PROD:
+    HOME_PAGE : http://advertising.dailypress.com/orders/create?package=DPROBIT10
+DPR_OBITS_STG:
+    HOME_PAGE :
+DPR_OBITS_QA:
+    HOME_PAGE : http://advertising-dailypress.tribqa.com/orders/create?package=DPROBIT10
+LAT_OBITS_PROD:
+    HOME_PAGE : http://advertising.latimes.com/orders/create?package=LATOBIT1
+LAT_OBITS_STG:
+    HOME_PAGE :
+LAT_OBITS_QA:
+    HOME_PAGE : http://advertising-latimes.tribqa.com/orders/create?package=LATOBIT1
+LAT_OBITS_PROD:
+    HOME_PAGE : http://advertising.latimes.com/orders/create?package=LATOBIT1
+LAT_OBITS_STG:
+    HOME_PAGE :
+LAT_OBITS_QA:
+    HOME_PAGE : http://advertising-latimes.tribqa.com/orders/create?package=LATOBIT1
+TCN_PROD:
+    HOME_PAGE : http://advertising.communitynews.latimes.com/orders/create?[0].sectionid=600
+TCN_STG:
+    HOME_PAGE :
+TCN_QA:
+    HOME_PAGE : http://advertising-communitynews-latimes.tribqa.com/orders/create?[0].sectionid=600
+OSC_PROD:
+    HOME_PAGE : http://advertising.orlandosentinel. com/orders/create?[0].sectionid=1179&[0].zoneids=656
+OSC_STG:
+    HOME_PAGE :
+OSC_QA:
+    HOME_PAGE : http://advertising-orlandosentinel.tribqa.com/orders/create?[0].sectionid=1179&[0].zoneids=656
+BCS_PROD:
+    HOME_PAGE : http://advertising.baltimoresun.com/orders/create?[0].sectionid=2273
+BCS_STG:
+    HOME_PAGE :
+BCS_QA:
+    HOME_PAGE : http://advertising-baltimoresun.tribqa.com/orders/create?[0].sectionid=2273
+SSC_OBITS_PROD:
+    HOME_PAGE : http://advertiser.sun-sentinel. com/orders/create?package=SSCOBIT1
+SSC_OBITS_STG:
+    HOME_PAGE :
+SSC_OBITS_QA:
+    HOME_PAGE : http://advertiser-sun-sentinel.tribqa.com/orders/create?package=SSCOBIT1
+DPR_DISPLAY_PROD:
+    HOME_PAGE : http://advertising.dailypress.com/orders/create?[0].sectionid=2659&[0].positionid=4780
+DPR_DISPLAY_STG:
+    HOME_PAGE :
+DPR_DISPLAY_QA:
+    HOME_PAGE : http://advertising-dailypress.tribqa.com/orders/create?[0].sectionid=2659&[0].positionid=4780
+HTF_PROD:
+    HOME_PAGE : http://advertising.courant.com/orders/create?[0].sectionid=2986
+HTF_STG:
+    HOME_PAGE :
+HTF_QA:
+    HOME_PAGE : http://advertising-courant.tribqa.com/orders/create?[0].sectionid=2986
+
+
+    

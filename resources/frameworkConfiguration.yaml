@@ -1,0 +1,16 @@
+FRAMEWORK:
+    LOCAL:
+        REPORT_SERVER_URL: "http://localhost:8080/ReportServer/test_results.jsp?id="
+        REPORTDB_URL: "jdbc:mysql://localhost:3306/report_db"
+        REPORTDB_USERNAME: "root"
+        REPORTDB_PASSWORD: "root"
+    STAGING:
+        REPORT_SERVER_URL: "http://qa-auto01.stg.ewr1.nytimes.com/ReportServer/test_results.jsp?id="
+        REPORTDB_URL: "jdbc:mysql://qa-auto-db01.stg.ewr1.nytimes.com:3306/report_db"
+        REPORTDB_USERNAME: "report_db_rwx"
+        REPORTDB_PASSWORD: "CuFdWcLqc6EWZqK"
+    DEVELOPMENT:
+        REPORT_SERVER_URL: "http://qa-auto01.dev.ewr1.nytimes.com/ReportServer/test_results.jsp?id="
+        REPORTDB_URL: "jdbc:mysql://qa-auto-db01.dev.ewr1.nytimes.com:3306/report_db"
+        REPORTDB_USERNAME: "report_db_rwx"
+        REPORTDB_PASSWORD: "OIb9eFHse"
